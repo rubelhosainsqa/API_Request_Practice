@@ -5,11 +5,11 @@
 - Open with Postman / Command Shell
 - Run Command:  
 ```console 
-newman run StudentDetails.postman_collection.json -e StudentDetails.postman_environment.json 
+newman run API_Request_Practice.postman_collection.json -e API_Request_Practice.postman_environment.json
 ```
 - Run Command for Report: 
 ```console 
-newman run StudentDetails.postman_collection.json -e StudentDetails.postman_environment.json -r cli,htmlextra
+newman run API_Request_Practice.postman_collection.json -e API_Request_Practice.postman_environment.json -r cli,htmlextra
 ```
 
 ## Technology used:
@@ -25,7 +25,7 @@ newman run StudentDetails.postman_collection.json -e StudentDetails.postman_envi
 ## Newman and Report Installation Process:
 - Newman Install Command:
 ```console
-npm install -g newman-reporter-htmlextra
+npm install -g newman
 ```
 - Newman Html Report Install Command:
 ```console
@@ -33,59 +33,30 @@ npm install -g newman-reporter-htmlextra
 ```
 
 ## API Documentation:
-- https://documenter.getpostman.com/view/13082503/2s93Xwz4Az
+- https://documenter.getpostman.com/view/25355745/2s9XxwxEoZ
 
-## Test case list:
-1. ### Create Student
-	> Create Data Sets Using the Dynamic Random Variables.
+## API Request Method List:
+1. ### Create Booking - POST
 
-2. ### Verify Crated Student Details
-	> In the test case you need to validate the following field values:
- 	1. > First Name
- 	2. > Middle Name
- 	3. > Last Name
- 	4. > Date of Birth
+2. ### Get Booking - GET
+	
+3. ### Create Token - POST
+	
+4. ### Update Booking - PUT
+	
 
-3. ### Update Student
-	> In the test case you need to validate the following field values:
- 	1. > Only Message
-4. ### Verify Verify Updated Student Details
-	> In the test case you need to validate the following field values:
-	1. > First Name
- 	2. > Middle Name
-	3. > Last Name
- 	4. > Date of Birth
+5. ### Get Booking After Update - GET
+	
 
-5. ### Create Technical skills Create Student Address
-	> In the test case you need to validate the following field values:
-	1. > Only Message
+6. ### Delete Booking - DELETE
+	
+7. ### Get Booking After Delate - GET
+	
 
-6. ### Create a Student Address
-	> In the test case you need to validate the following field values:
-	1. > Only Message
-
-7. ### Get the Student's Full Details
-	> In the test case you need to validate the following field values:
-	1. > First Name
-	2. > Middle Name
-	3. > Last Name
-	4. > Date of Birth
-	5. > Language
-	6. > Year Of Experience
-	7. > Last Used Date
-	8. > House Number
-	9. > City
-	10. > State
-	11. > Country
-	12. > Std Code
-	13. > Home Address
-	14. > Mobile
-
-8. ### Delete Specific Student
-	> In the test case you need to validate the following field values:
-	1. > Only Message
-
+	
 ## Newman Report Summary:
-![Newman Report Summary](https://user-images.githubusercontent.com/70250199/232209683-ddb8e3c5-4f23-4355-8919-61cd6ddca91a.png)
+![Newman Report Summary](https://github.com/rubelhosainsqa/API_Request_Practice/assets/119733194/b1edf811-b3db-4868-a90f-a4cb98ac306d)
 
-![Newman Report Summary](https://user-images.githubusercontent.com/70250199/232209794-f84c539b-e3cf-4e80-ab0e-9d6d59b1a339.png)
+
+![Newman Report Summary](https://github.com/rubelhosainsqa/API_Request_Practice/assets/119733194/9c35053a-17a8-4bc5-a2bf-6109be99d738)
+
